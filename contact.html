@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-5">
+      <div class="container">
+        <a class="navbar-brand text-white d-flex align-items-center" href="#">
+          <img
+            src="https://routeweather.netlify.app/images/logo@2x.png"
+            alt=""
+            class="logo"
+            width="64"
+            height="38"
+          />
+          <div class="logo-type ms-3 d-flex flex-wrap">
+            <h5 class="site-title py-0 my-0 w-100">Weather</h5>
+            <small class="site-description">tagline goes here</small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-4">
+              <a
+                class="nav-link px-3 py-0 text-white active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-3 py-0 text-white" href="#">News</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-3 py-0 text-white" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-3 py-0 text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link px-3 py-0 text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+        <div class="container overflow-hidden">
+            <div class="contactInp pt-3 ps-3">
+                <a href="index.html" class="text-decoration-none">Home <i class="fa-solid fa-arrow-right-long"></i></a>
+                <span class="text-white"> 
+                contact
+                </span>
+            </div> 
+            <div class="row mt-5">
+                  <div class="col-md-5">
+                        <div class="contact-left">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54837.43499105281!2d31.04055638350585!3d30.793107018188437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c95daafcf035%3A0x7421820c5e8cae42!2z2LfZhti32KfYjCDYt9mG2LfYpyAo2YLYs9mFIDIp2Iwg2YXYsdmD2LIg2LfZhti32KfYjCDZhdit2KfZgdi42Kkg2KfZhNi62LHYqNmK2Kk!5e0!3m2!1sar!2seg!4v1733862260985!5m2!1sar!2seg"  class="w-100 border-1 rounded-3 rounded-bottom-0"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="contact-icons border  rounded-3 rounded-top-0 p-3">
+                                <span class="w-75 d-inline-block mb-2"><i class="fa-solid fa-location-dot"></i> <span class="text">
+                                    Company Name INC.
+                                    2803 Avenue Street, Los Angeles</span>
+                                </span> </span>
+                                <span>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span class="text">
+                                        +1 800 314 235
+                                    </span>
+                                </span> 
+                                <span>
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <span class="text">contact@companyname.com</span>
+                                </span> 
+                                 
+                                </div>  
+                            </div>
+                            </div>
+                     
+                   
+                  <div class="col-md-7">
+                    <div class="contact-form">
+                        <h4 class="text-white">Contact us</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                        <form action="" class="d-flex flex-wrap m-3">
+                            <input
+                            type="text"
+                            id="searchInput"
+                            class=" rounded-5 border-1 px-4 mt-5 text-white"
+                            placeholder="Your Name..."
+                          />
+                            <input
+                            type="text"
+                            id="searchInput"
+                            class="ms-3 rounded-5 border-1 px-4 mt-5 text-white"
+                            placeholder="Email Address..."
+                          />
+                            <input
+                            type="text"
+                            id="searchInput"
+                            class=" rounded-5 border-1 px-4 mt-3 text-white"
+                            placeholder="Company Name..."
+                          />
+                            <input
+                            type="text"
+                            id="searchInput"
+                            class="ms-3 rounded-5 border-1 px-4 mt-3 text-white"
+                            placeholder="Website..."
+                          />
+                          <textarea class="rounded-5 border-1 px-4 mt-3 text-white bg-transparent" id="exampleFormControlTextarea1" rows="3"
+                          placeholder="Message..."
+                          ></textarea>
+                        <div class="w-100 mt-3 d-flex justify-content-center">
+                            <button type="button" class="btn text-white text-center">submit</button>
+                        </div>
+                        </form>
+                    </div>
+                  </div>
+           
+                      
+            
+          </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-md-8">
+            <form action="" id="formSubmit" class="position-relative" >
+              <input
+                type="text"
+                id="searchInput"
+                class="w-100 rounded-5 border-0 px-4 mt-5 text-white"
+                placeholder="Enter Your Email to subscribe...."
+              />
+              <button
+                class="btn subscribe rounded-5 text-white px-4 py-2 position-absolute"
+                id="searchBtn"
+              >
+                subscribe
+              </button>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <div class="icons d-flex mt-5">
+              <span class="d-flex ms-3 justify-content-center align-items-center"><i class="fa-brands fa-facebook"></i></span>
+              <span class="d-flex ms-3 justify-content-center align-items-center"><i class="fa-brands fa-twitter"></i></span>
+              <span class="d-flex ms-3 justify-content-center align-items-center"><i class="fa-brands fa-instagram"></i></span>
+              <span class="d-flex ms-3 justify-content-center align-items-center"><i class="fa-brands fa-linkedin"></i></span>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        </div>
+        
+      </div>
+        
+    </footer> 
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
