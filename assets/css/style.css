@@ -23,7 +23,7 @@ nav{
     border-color: var(--third-color);
     color: var(--third-color) !important;
 }
-nav li a.active{
+nav li a.nav-link.active{
     border: 2px solid var(--third-color);
     border-radius: 20px;
     color: var(--third-color) !important;
@@ -32,7 +32,7 @@ header{
     background-image: url(../imgs/banner.png);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 350px;
 }
 #searchInput{
     background-color: var(--main-color);
@@ -88,6 +88,10 @@ span.location{
 }
 h2 .icon-desc,.icon-desc{
     color: var(--third-color);
+}
+main .items{
+    margin-top: -150px;
+    margin-bottom: 50px;
 }
 .items .icon-img{
     color: var(--sec-color);
@@ -151,4 +155,3 @@ p{
     background-color: #009AD8;
     transform: translateX(260%);
 }
- 
